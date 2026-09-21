@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="createUser.CreateUser">
+      <class name="diffwayreqs.PostReqByExterJsonFile">
         <methods>
-          <include name="createUser"/>
+          <include name="postReqByExterJson"/>
+          <include name="testDeleteReq"/>
         </methods>
-      </class> <!-- createUser.CreateUser -->
+      </class> <!-- diffwayreqs.PostReqByExterJsonFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
