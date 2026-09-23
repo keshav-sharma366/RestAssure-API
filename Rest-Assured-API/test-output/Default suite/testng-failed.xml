@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="diffwayreqs.PostReqByExterJsonFile">
+      <class name="cookiesheaders.CookieHeaders">
         <methods>
-          <include name="postReqByExterJson"/>
-          <include name="testDeleteReq"/>
+          <include name="testCookie"/>
         </methods>
-      </class> <!-- diffwayreqs.PostReqByExterJsonFile -->
+      </class> <!-- cookiesheaders.CookieHeaders -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

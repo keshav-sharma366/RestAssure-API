@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\kesha\AppData\Local\Temp\testng-eclipse-228518504\testng-customsuite.xml</span>
+                    <span>C:\Users\kesha\AppData\Local\Temp\testng-eclipse--786619059\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="diffwayreqs.PostReqByExterJsonFile" class="method navigator-link" hash-for-method="postReqByExterJson">postReqByExterJson</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="cookiesheaders.HeadersTest" class="method navigator-link" hash-for-method="getAllHeaders">getAllHeaders</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="diffwayreqs.PostReqByExterJsonFile" class="method navigator-link" hash-for-method="testDeleteReq">testDeleteReq</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="cookiesheaders.HeadersTest" class="method navigator-link" hash-for-method="testHeader">testHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="cookiesheaders.HeadersTest" class="method navigator-link" hash-for-method="testSingleHeaderInfo">testSingleHeaderInfo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,21 +131,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">diffwayreqs.PostReqByExterJsonFile</span>
+              <span class="class-name">cookiesheaders.HeadersTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="postReqByExterJson">
-                  </a> <!-- postReqByExterJson -->
-                  <span class="method-name">postReqByExterJson</span>
+                  <a name="getAllHeaders">
+                  </a> <!-- getAllHeaders -->
+                  <span class="method-name">getAllHeaders</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteReq">
-                  </a> <!-- testDeleteReq -->
-                  <span class="method-name">testDeleteReq</span>
+                  <a name="testHeader">
+                  </a> <!-- testHeader -->
+                  <span class="method-name">testHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSingleHeaderInfo">
+                  </a> <!-- testSingleHeaderInfo -->
+                  <span class="method-name">testSingleHeaderInfo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -148,7 +160,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\kesha\AppData\Local\Temp\testng-eclipse-228518504\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\kesha\AppData\Local\Temp\testng-eclipse--786619059\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -157,7 +169,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;diffwayreqs.PostReqByExterJsonFile&quot;/&gt;
+      &lt;class name=&quot;cookiesheaders.HeadersTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -197,15 +209,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'postReqByExterJson')
-data.setCell(0, 2, 'diffwayreqs.PostReqByExterJsonFile')
-data.setCell(0, 3, 2590);
+data.setCell(0, 1, 'testHeader')
+data.setCell(0, 2, 'cookiesheaders.HeadersTest')
+data.setCell(0, 3, 1996);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testDeleteReq')
-data.setCell(1, 2, 'diffwayreqs.PostReqByExterJsonFile')
-data.setCell(1, 3, 53);
+data.setCell(1, 1, 'getAllHeaders')
+data.setCell(1, 2, 'cookiesheaders.HeadersTest')
+data.setCell(1, 3, 305);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSingleHeaderInfo')
+data.setCell(2, 2, 'cookiesheaders.HeadersTest')
+data.setCell(2, 3, 283);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -236,14 +252,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">diffwayreqs.PostReqByExterJsonFile</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">cookiesheaders.HeadersTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">postReqByExterJson</span>
+                <span class="method-name">testHeader</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testDeleteReq</span>
-                <span class="method-start">2598 ms</span>
+                <span class="method-name">testSingleHeaderInfo</span>
+                <span class="method-start">2004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllHeaders</span>
+                <span class="method-start">2291 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
