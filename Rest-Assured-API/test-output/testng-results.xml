@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-23T16:36:52 IST" name="Default suite" finished-at="2026-09-23T16:36:55 IST" duration-ms="2640">
+  <suite started-at="2026-09-26T15:05:59 IST" name="Default suite" finished-at="2026-09-26T15:06:03 IST" duration-ms="4062">
     <groups>
     </groups>
-    <test started-at="2026-09-23T16:36:52 IST" name="Default test" finished-at="2026-09-23T16:36:55 IST" duration-ms="2640">
-      <class name="cookiesheaders.HeadersTest">
-        <test-method signature="testHeader()[pri:0, instance:cookiesheaders.HeadersTest@4c12331b]" started-at="2026-09-23T16:36:52 IST" name="testHeader" finished-at="2026-09-23T16:36:54 IST" duration-ms="1996" status="PASS">
+    <test started-at="2026-09-26T15:05:59 IST" name="Default test" finished-at="2026-09-26T15:06:03 IST" duration-ms="4062">
+      <class name="jsonschemaValidaton.JSON_SchemaValidation">
+        <test-method signature="jsonschemavalidation()[pri:0, instance:jsonschemaValidaton.JSON_SchemaValidation@6a78afa0]" started-at="2026-09-26T15:05:59 IST" name="jsonschemavalidation" finished-at="2026-09-26T15:06:03 IST" duration-ms="3970" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHeader -->
-        <test-method signature="testSingleHeaderInfo()[pri:1, instance:cookiesheaders.HeadersTest@4c12331b]" started-at="2026-09-23T16:36:54 IST" name="testSingleHeaderInfo" finished-at="2026-09-23T16:36:55 IST" duration-ms="283" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSingleHeaderInfo -->
-        <test-method signature="getAllHeaders()[pri:2, instance:cookiesheaders.HeadersTest@4c12331b]" started-at="2026-09-23T16:36:55 IST" name="getAllHeaders" finished-at="2026-09-23T16:36:55 IST" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllHeaders -->
-      </class> <!-- cookiesheaders.HeadersTest -->
+        </test-method> <!-- jsonschemavalidation -->
+      </class> <!-- jsonschemaValidaton.JSON_SchemaValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
