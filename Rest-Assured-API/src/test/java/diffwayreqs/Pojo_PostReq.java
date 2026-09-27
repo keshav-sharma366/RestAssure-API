@@ -11,7 +11,7 @@ public class Pojo_PostReq {
     @Test(priority=1)
     public void postReqByJsonOrg()
     {
-        PostReq_POJO data = new PostReq_POJO();
+        PostReq_POJO1 data = new PostReq_POJO1();
         data.setName("Ruchi");
         data.setLocation("Noida");
         data.setPhone("9999117343");
