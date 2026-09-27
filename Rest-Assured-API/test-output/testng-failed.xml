@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="xmlschemavalidation.XmlSchemaValidation">
+      <class name="authentication.ApiKeyAuthentication">
         <methods>
-          <include name="xmlSchemavalidation"/>
+          <include name="testAPIKeyAuthentication"/>
         </methods>
-      </class> <!-- xmlschemavalidation.XmlSchemaValidation -->
+      </class> <!-- authentication.ApiKeyAuthentication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
