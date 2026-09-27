@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="diffwayreqs.PostReqByExterJsonFile">
+      <class name="authentication.BarrierTokenAuthentication">
         <methods>
-          <include name="postReqByExterJson"/>
-          <include name="testDeleteReq"/>
+          <include name="testBearerTokenAuthentication"/>
         </methods>
-      </class> <!-- diffwayreqs.PostReqByExterJsonFile -->
+      </class> <!-- authentication.BarrierTokenAuthentication -->
       <class name="pathqueryparam.PathQueryParams">
         <methods>
           <include name="testQueryAndPathParameters"/>
@@ -31,6 +30,34 @@
           <include name="testDeleteReq"/>
         </methods>
       </class> <!-- diffwayreqs.Pojo_PostReq -->
+      <class name="parseJsonresponse.ParseJsonDataofBookStoreAPI">
+        <methods>
+          <include name="validateResponse"/>
+          <include name="testRespone"/>
+        </methods>
+      </class> <!-- parseJsonresponse.ParseJsonDataofBookStoreAPI -->
+      <class name="jsonschemaValidaton.JSON_SchemaValidation">
+        <methods>
+          <include name="jsonschemavalidation"/>
+        </methods>
+      </class> <!-- jsonschemaValidaton.JSON_SchemaValidation -->
+      <class name="diffwayreqs.PostReqByExterJsonFile">
+        <methods>
+          <include name="postReqByExterJson"/>
+          <include name="testDeleteReq"/>
+        </methods>
+      </class> <!-- diffwayreqs.PostReqByExterJsonFile -->
+      <class name="parseJsonresponse.ParseJsonResponse">
+        <methods>
+          <include name="testJsonResponse"/>
+        </methods>
+      </class> <!-- parseJsonresponse.ParseJsonResponse -->
+      <class name="diffwayreqs.PostReqByHashMap">
+        <methods>
+          <include name="testDelete"/>
+          <include name="postReq"/>
+        </methods>
+      </class> <!-- diffwayreqs.PostReqByHashMap -->
       <class name="xmlresponsevalidation.ValidateResponseXML">
         <methods>
           <include name="testResponseApproach2"/>
@@ -43,34 +70,17 @@
           <include name="testQueryAndPathParameters"/>
         </methods>
       </class> <!-- pathqueryparam.PathQueryParamsExtra -->
-      <class name="parseJsonresponse.ParseJsonDataofBookStoreAPI">
-        <methods>
-          <include name="validateResponse"/>
-          <include name="testRespone"/>
-        </methods>
-      </class> <!-- parseJsonresponse.ParseJsonDataofBookStoreAPI -->
       <class name="diffwayreqs.PostReqByOrgJson">
         <methods>
           <include name="postReqByJsonOrg"/>
           <include name="testDeleteReq"/>
         </methods>
       </class> <!-- diffwayreqs.PostReqByOrgJson -->
-      <class name="diffwayreqs.PostReqByHashMap">
+      <class name="authentication.Oauth2Authentication">
         <methods>
-          <include name="testDelete"/>
-          <include name="postReq"/>
+          <include name="testOAuth2Authentication"/>
         </methods>
-      </class> <!-- diffwayreqs.PostReqByHashMap -->
-      <class name="parseJsonresponse.ParseJsonResponse">
-        <methods>
-          <include name="testJsonResponse"/>
-        </methods>
-      </class> <!-- parseJsonresponse.ParseJsonResponse -->
-      <class name="jsonschemaValidaton.JSON_SchemaValidation">
-        <methods>
-          <include name="jsonschemavalidation"/>
-        </methods>
-      </class> <!-- jsonschemaValidaton.JSON_SchemaValidation -->
+      </class> <!-- authentication.Oauth2Authentication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
