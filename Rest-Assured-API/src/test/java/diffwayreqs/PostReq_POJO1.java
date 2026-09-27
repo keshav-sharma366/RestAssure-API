@@ -1,6 +1,6 @@
 package diffwayreqs;
 
-public class PostReq_POJO {
+public class PostReq_POJO1 {
 
 	    String name;
 	    String location;
