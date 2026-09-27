@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-26T15:36:42 IST" name="Default suite" finished-at="2026-09-26T15:36:44 IST" duration-ms="2388">
+  <suite started-at="2026-09-27T11:37:59 IST" name="Default suite" finished-at="2026-09-27T11:37:59 IST" duration-ms="308">
     <groups>
     </groups>
-    <test started-at="2026-09-26T15:36:42 IST" name="Default test" finished-at="2026-09-26T15:36:44 IST" duration-ms="2388">
-      <class name="xmlschemavalidation.XmlSchemaValidation">
-        <test-method signature="xmlSchemavalidation()[pri:0, instance:xmlschemavalidation.XmlSchemaValidation@6a78afa0]" started-at="2026-09-26T15:36:42 IST" name="xmlSchemavalidation" finished-at="2026-09-26T15:36:44 IST" duration-ms="2291" status="PASS">
+    <test started-at="2026-09-27T11:37:59 IST" name="Default test" finished-at="2026-09-27T11:37:59 IST" duration-ms="308">
+      <class name="serialization_deserialization.DeserializationJsonToPojo">
+        <test-method signature="convertPojo2Json()[pri:1, instance:serialization_deserialization.DeserializationJsonToPojo@44c03695]" started-at="2026-09-27T11:37:59 IST" name="convertPojo2Json" finished-at="2026-09-27T11:37:59 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- xmlSchemavalidation -->
-      </class> <!-- xmlschemavalidation.XmlSchemaValidation -->
+        </test-method> <!-- convertPojo2Json -->
+        <test-method signature="convertJson2Pojo()[pri:2, instance:serialization_deserialization.DeserializationJsonToPojo@44c03695]" started-at="2026-09-27T11:37:59 IST" name="convertJson2Pojo" finished-at="2026-09-27T11:37:59 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertJson2Pojo -->
+      </class> <!-- serialization_deserialization.DeserializationJsonToPojo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
